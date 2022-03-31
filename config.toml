@@ -17,7 +17,7 @@ languageCode = "zh-tw"
 defaultContentLanguage = "zh-tw"
 title = "Tuna's Site"
 theme = "tranquilpeak"
-disqusShortname = "tunahsu"
+disqusShortname = "tunas-site"
 # googleAnalytics = "UA-123-45"
 paginate = 5
 canonifyurls = true
@@ -342,7 +342,7 @@ canonifyurls = true
   [params.comment]
     [params.comment.disqus]
       enable = true
-      shortname = "tunahsu"
+      shortname = "tunas-site"
     [params.comment.gitalk]
       enable = false
       # clientId =

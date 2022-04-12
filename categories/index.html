@@ -45,6 +45,37 @@
         
           
           
+          
+        
+        
+        
+      
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+      
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+        
+        
+          
+          
         
         
         
@@ -485,6 +516,27 @@
       
     
     
+    <script>
+    MathJax = {
+        tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+        },
+        options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+    };
+
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
 
   <body>
@@ -628,9 +680,47 @@
               
                 
                 <div>
+                  <a href="#posts-list-deep-learning" class="category-anchor" data-category="deep learning" data-parent-categories="">deep learning</a>
+                  
+                    
+                    
+                      
+
+  <ul style="margin-bottom:0;">
+    <div>
+      <a href="#posts-list-cnn" class="category-anchor" data-category="cnn" data-parent-categories="deep-learning"> / cnn</a>
+    </div>
+  
+  
+  
+  </ul>
+
+
+                    
+                      
+
+
+                    
+                      
+
+
+                    
+                      
+
+
+                    
+                  
+                </div>
+              
+                
+                <div>
                   <a href="#posts-list-tranquilpeak" class="category-anchor" data-category="tranquilpeak" data-parent-categories="">tranquilpeak</a>
                   
                     
+                    
+                      
+
+
                     
                       
 
@@ -678,6 +768,60 @@
           </section>
           <section class="boxes">
             
+              
+                
+                <div id="posts-list-deep-learning" class="archive box" data-category="deep learning" data-parent-categories="" style="display: block;">
+                  <h4 class="archive-title text-xlarge">
+                    <a class="link-unstyled" href="deep-learning">deep learning (1)</a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://tunahsu.github.io/post/winograd-algorithm/">Winograd algorithm</a><span class="archive-post-date"> - 
+  四月 12, 2022
+</span>
+                      </li>
+                    
+                    
+                      
+                      
+                        
+
+  <div id="posts-list-cnn" class="archive" data-category="cnn" data-parent-categories="deep-learning" style="display: block;">
+  <h4 class="archive-title text-xlarge">
+    <a class="link-unstyled" href="cnn">cnn (1)</a>
+  </h4>
+  <ul class="archive-posts">
+    
+      <li class="archive-post" style="display: list-item;">
+        <a class="archive-post-title" href="https://tunahsu.github.io/post/winograd-algorithm/">Winograd algorithm</a><span class="archive-post-date"> - 
+  四月 12, 2022
+</span>
+      </li>
+    
+  </ul>
+  
+  
+  
+  </div>
+
+
+                      
+                        
+
+
+                      
+                        
+
+
+                      
+                        
+
+
+                      
+                    
+                  </ul>
+                </div>
               
                 
                 <div id="posts-list-tranquilpeak" class="archive box" data-category="tranquilpeak" data-parent-categories="" style="display: block;">
@@ -760,6 +904,10 @@
                     
                     
                       
+                      
+                        
+
+
                       
                         
 

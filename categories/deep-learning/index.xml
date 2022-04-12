@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deep learning on Tuna&#39;s Site</title>
+    <link>https://tunahsu.github.io/categories/deep-learning/</link>
+    <description>Recent content in deep learning on Tuna&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 12 Apr 2022 16:53:08 +0800</lastBuildDate><atom:link href="https://tunahsu.github.io/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Winograd algorithm</title>
+      <link>https://tunahsu.github.io/post/winograd-algorithm/</link>
+      <pubDate>Tue, 12 Apr 2022 16:53:08 +0800</pubDate>
+      
+      <guid>https://tunahsu.github.io/post/winograd-algorithm/</guid>
+      <description>&lt;p&gt;作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

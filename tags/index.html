@@ -88,6 +88,27 @@
       
     
     
+    <script>
+    MathJax = {
+        tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+        },
+        options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+    };
+
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
 
   <body>
@@ -232,6 +253,10 @@
                   test
                 </a>
               
+                <a class="tag tag--primary tag--small" href="#acceleration-list" data-tag="acceleration">
+                  acceleration
+                </a>
+              
                 <a class="tag tag--primary tag--small" href="#chinese-list" data-tag="chinese">
                   chinese
                 </a>
@@ -312,6 +337,10 @@
                   vimeo
                 </a>
               
+                <a class="tag tag--primary tag--small" href="#winograd-algorithm-list" data-tag="winograd-algorithm">
+                  winograd-algorithm
+                </a>
+              
                 <a class="tag tag--primary tag--small" href="#youtube-list" data-tag="youtube">
                   youtube
                 </a>
@@ -342,6 +371,26 @@
                         </a>
                         <span class="archive-post-date"> - 
   三月 23, 2015
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="acceleration-list" class="archive box" data-tag="acceleration">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="acceleration">
+                      acceleration (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://tunahsu.github.io/post/winograd-algorithm/">
+                          Winograd algorithm
+                        </a>
+                        <span class="archive-post-date"> - 
+  四月 12, 2022
 </span>
                       </li>
                     
@@ -742,6 +791,26 @@
                         </a>
                         <span class="archive-post-date"> - 
   八月 9, 2014
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="winograd-algorithm-list" class="archive box" data-tag="winograd-algorithm">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="winograd-algorithm">
+                      winograd-algorithm (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://tunahsu.github.io/post/winograd-algorithm/">
+                          Winograd algorithm
+                        </a>
+                        <span class="archive-post-date"> - 
+  四月 12, 2022
 </span>
                       </li>
                     

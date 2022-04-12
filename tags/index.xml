@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Tuna&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 15 Jun 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://tunahsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Apr 2022 16:53:08 +0800</lastBuildDate><atom:link href="https://tunahsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>acceleration</title>
+      <link>https://tunahsu.github.io/tags/acceleration/</link>
+      <pubDate>Tue, 12 Apr 2022 16:53:08 +0800</pubDate>
+      
+      <guid>https://tunahsu.github.io/tags/acceleration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>winograd algorithm</title>
+      <link>https://tunahsu.github.io/tags/winograd-algorithm/</link>
+      <pubDate>Tue, 12 Apr 2022 16:53:08 +0800</pubDate>
+      
+      <guid>https://tunahsu.github.io/tags/winograd-algorithm/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>disqus</title>
       <link>https://tunahsu.github.io/tags/disqus/</link>

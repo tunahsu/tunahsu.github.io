@@ -88,6 +88,27 @@
       
     
     
+    <script>
+    MathJax = {
+        tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+        },
+        options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+    };
+
+    window.addEventListener('load', (event) => {
+        document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
 
   <body>
@@ -218,6 +239,70 @@
                ">
         <section class="postShorten-group main-content-wrap">
           
+          
+            
+  
+    
+  
+
+
+  
+
+<article class="postShorten postShorten--thumbnailimg-bottom">
+  <div class="postShorten-wrap">
+    
+    <div class="postShorten-header">
+      <h1 class="postShorten-title">
+      
+        <a class="link-unstyled" href="https://tunahsu.github.io/post/winograd-algorithm/" aria-label="打開帖子: Winograd algorithm">
+      
+          Winograd algorithm
+        </a>
+      </h1>
+      
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2022-04-12T16:53:08&#43;08:00">
+        
+  四月 12, 2022
+
+      </time>
+    
+    
+  
+  
+    <span>分類</span>
+    
+      <a class="category-link" href="https://tunahsu.github.io/categories/deep-learning">deep learning</a>, 
+    
+      <a class="category-link" href="https://tunahsu.github.io/categories/cnn">cnn</a>
+    
+  
+
+  </div>
+
+    </div>
+    <div class="postShorten-excerpt">
+      
+        <p>作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation</p>
+      
+      <p>
+        
+          <a href="https://tunahsu.github.io/post/winograd-algorithm/" class="postShorten-excerpt_link link" aria-label="打開帖子: Winograd algorithm">繼續閱讀</a>
+        
+        
+      </p>
+    </div>
+  </div>
+  
+    <a href="https://tunahsu.github.io/post/winograd-algorithm/" aria-label="打開帖子: Winograd algorithm">
+      <div class="postShorten-thumbnailimg">
+        <img alt="" src="//s2.ax1x.com/2019/05/22/VpBFc6.png"/>
+      </div>
+    </a>
+  
+</article>
+
           
             
   
@@ -471,70 +556,6 @@
     <a href="https://tunahsu.github.io/post/cover-image-showcase/" aria-label="打開帖子: Cover image showcase">
       <div class="postShorten-thumbnailimg">
         <img alt="" src="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg"/>
-      </div>
-    </a>
-  
-</article>
-
-          
-            
-  
-    
-  
-
-
-  
-
-<article class="postShorten postShorten--thumbnailimg-left">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title">
-      
-        <a class="link-unstyled" href="https://tunahsu.github.io/post/highlighted-code-showcase/" aria-label="打開帖子: highlighted code showcase">
-      
-          highlighted code showcase
-        </a>
-      </h1>
-      
-  <div class="postShorten-meta post-meta">
-    
-      <time datetime="2015-03-23T00:00:00Z">
-        
-  三月 23, 2015
-
-      </time>
-    
-    
-  
-  
-    <span>分類</span>
-    
-      <a class="category-link" href="https://tunahsu.github.io/categories/tranquilpeak">tranquilpeak</a>, 
-    
-      <a class="category-link" href="https://tunahsu.github.io/categories/features">features</a>
-    
-  
-
-  </div>
-
-    </div>
-    <div class="postShorten-excerpt">
-      
-        <p>Tranquilpeak Hugo theme have its own theme to highlight source code. It&rsquo;s based on GitHub theme: simple and elegant. Check out how it sublimate source codes.</p>
-      
-      <p>
-        
-          <a href="https://tunahsu.github.io/post/highlighted-code-showcase/" class="postShorten-excerpt_link link" aria-label="打開帖子: highlighted code showcase">繼續閱讀</a>
-        
-        
-      </p>
-    </div>
-  </div>
-  
-    <a href="https://tunahsu.github.io/post/highlighted-code-showcase/" aria-label="打開帖子: highlighted code showcase">
-      <div class="postShorten-thumbnailimg">
-        <img alt="" src="//d1u9biwaxjngwg.cloudfront.net/highlighted-code-showcase/peak-140.jpg"/>
       </div>
     </a>
   

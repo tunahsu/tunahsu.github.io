@@ -2,11 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tunahsu.github.io/about/</loc>
-    <lastmod>2022-04-08T13:52:50+08:00</lastmod>
+    <loc>https://tunahsu.github.io/tags/acceleration/</loc>
+    <lastmod>2022-04-12T16:53:08+08:00</lastmod>
   </url><url>
     <loc>https://tunahsu.github.io/categories/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-12T16:53:08+08:00</lastmod>
+  </url><url>
+    <loc>https://tunahsu.github.io/categories/cnn/</loc>
+    <lastmod>2022-04-12T16:53:08+08:00</lastmod>
+  </url><url>
+    <loc>https://tunahsu.github.io/categories/deep-learning/</loc>
+    <lastmod>2022-04-12T16:53:08+08:00</lastmod>
+  </url><url>
+    <loc>https://tunahsu.github.io/post/</loc>
+    <lastmod>2022-04-12T16:53:08+08:00</lastmod>
+  </url><url>
+    <loc>https://tunahsu.github.io/tags/</loc>
+    <lastmod>2022-04-12T16:53:08+08:00</lastmod>
+  </url><url>
+    <loc>https://tunahsu.github.io/</loc>
+    <lastmod>2022-04-12T16:53:08+08:00</lastmod>
+  </url><url>
+    <loc>https://tunahsu.github.io/post/winograd-algorithm/</loc>
+    <lastmod>2022-04-12T16:53:08+08:00</lastmod>
+  </url><url>
+    <loc>https://tunahsu.github.io/tags/winograd-algorithm/</loc>
+    <lastmod>2022-04-12T16:53:08+08:00</lastmod>
+  </url><url>
+    <loc>https://tunahsu.github.io/about/</loc>
+    <lastmod>2022-04-08T13:52:50+08:00</lastmod>
   </url><url>
     <loc>https://tunahsu.github.io/tags/disqus/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
@@ -20,22 +44,13 @@
     <loc>https://tunahsu.github.io/tags/hexo-theme/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tunahsu.github.io/post/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://tunahsu.github.io/categories/releases/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tunahsu.github.io/tags/responsive/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tunahsu.github.io/tags/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://tunahsu.github.io/categories/tranquilpeak/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tunahsu.github.io/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tunahsu.github.io/post/welcome-to-the-new-tranquilpeak/</loc>

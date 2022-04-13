@@ -16,8 +16,8 @@
     
   },
   "name":"Tuna\u0027s Site",
-  "description":"\u003cp\u003e作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation\u003c\/p\u003e",
-  "url":"https:\/\/tunahsu.github.io\/post\/winograd-algorithm\/",
+  "description":"\u003cp\u003e智慧監控所使用的CNN的架構大部分是來自 ImageNet Challenge 比賽中獲勝的網路架構，這些較著名的CNN 架構具有更深層且更複雜的神經網路從而達到更高的精度，但在現今的硬體技術發展下，高端硬體設備已經可以讓這些複雜的神經網路達成 real-time 的效果。但在智慧監控領域中多通道的影像，需要同時進行處理並實現及時運算，考量這些大量監視器影像所需的計算成本，以現今的硬體設備還是難以達成\u003c\/p\u003e",
+  "url":"https:\/\/tunahsu.github.io\/post\/dyncnn\/",
   "keywords":"[]"
 }
 
@@ -28,25 +28,25 @@
 <meta name="generator" content="Hugo 0.96.0 with theme Tranquilpeak 0.5.3-BETA">
 <meta name="author" content="Tuns Hsu">
 <meta name="keywords" content="">
-<meta name="description" content="作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation">
+<meta name="description" content="智慧監控所使用的CNN的架構大部分是來自 ImageNet Challenge 比賽中獲勝的網路架構，這些較著名的CNN 架構具有更深層且更複雜的神經網路從而達到更高的精度，但在現今的硬體技術發展下，高端硬體設備已經可以讓這些複雜的神經網路達成 real-time 的效果。但在智慧監控領域中多通道的影像，需要同時進行處理並實現及時運算，考量這些大量監視器影像所需的計算成本，以現今的硬體設備還是難以達成">
 
 
-<meta property="og:description" content="作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation">
+<meta property="og:description" content="智慧監控所使用的CNN的架構大部分是來自 ImageNet Challenge 比賽中獲勝的網路架構，這些較著名的CNN 架構具有更深層且更複雜的神經網路從而達到更高的精度，但在現今的硬體技術發展下，高端硬體設備已經可以讓這些複雜的神經網路達成 real-time 的效果。但在智慧監控領域中多通道的影像，需要同時進行處理並實現及時運算，考量這些大量監視器影像所需的計算成本，以現今的硬體設備還是難以達成">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Winograd algorithm 卷積神經網路中的加速卷積算法">
-<meta name="twitter:title" content="Winograd algorithm 卷積神經網路中的加速卷積算法">
-<meta property="og:url" content="https://tunahsu.github.io/post/winograd-algorithm/">
-<meta property="twitter:url" content="https://tunahsu.github.io/post/winograd-algorithm/">
+<meta property="og:title" content="DynCNN 用於監控影像的動態卷積神經網路">
+<meta name="twitter:title" content="DynCNN 用於監控影像的動態卷積神經網路">
+<meta property="og:url" content="https://tunahsu.github.io/post/dyncnn/">
+<meta property="twitter:url" content="https://tunahsu.github.io/post/dyncnn/">
 <meta property="og:site_name" content="Tuna&#39;s Site">
-<meta property="og:description" content="作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation">
-<meta name="twitter:description" content="作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation">
+<meta property="og:description" content="智慧監控所使用的CNN的架構大部分是來自 ImageNet Challenge 比賽中獲勝的網路架構，這些較著名的CNN 架構具有更深層且更複雜的神經網路從而達到更高的精度，但在現今的硬體技術發展下，高端硬體設備已經可以讓這些複雜的神經網路達成 real-time 的效果。但在智慧監控領域中多通道的影像，需要同時進行處理並實現及時運算，考量這些大量監視器影像所需的計算成本，以現今的硬體設備還是難以達成">
+<meta name="twitter:description" content="智慧監控所使用的CNN的架構大部分是來自 ImageNet Challenge 比賽中獲勝的網路架構，這些較著名的CNN 架構具有更深層且更複雜的神經網路從而達到更高的精度，但在現今的硬體技術發展下，高端硬體設備已經可以讓這些複雜的神經網路達成 real-time 的效果。但在智慧監控領域中多通道的影像，需要同時進行處理並實現及時運算，考量這些大量監視器影像所需的計算成本，以現今的硬體設備還是難以達成">
 <meta property="og:locale" content="zh-tw">
 
   
-    <meta property="article:published_time" content="2022-04-12T16:53:08">
+    <meta property="article:published_time" content="2022-04-13T15:16:10">
   
   
-    <meta property="article:modified_time" content="2022-04-12T16:53:08">
+    <meta property="article:modified_time" content="2022-04-13T15:16:10">
   
   
   
@@ -58,9 +58,9 @@
   
   
     
-      <meta property="article:tag" content="winograd algorithm">
+      <meta property="article:tag" content="dyncnn">
     
-      <meta property="article:tag" content="acceleration">
+      <meta property="article:tag" content="surveillance">
     
   
 
@@ -80,18 +80,18 @@
 
 
 
-  <meta property="og:image" content="https://s2.ax1x.com/2019/05/22/VpBFc6.png">
-  <meta property="twitter:image" content="https://s2.ax1x.com/2019/05/22/VpBFc6.png">
+  <meta property="og:image" content="https://i.imgur.com/x6589qS.png">
+  <meta property="twitter:image" content="https://i.imgur.com/x6589qS.png">
 
 
-    <title>Winograd algorithm 卷積神經網路中的加速卷積算法</title>
+    <title>DynCNN 用於監控影像的動態卷積神經網路</title>
 
     <link rel="icon" href="https://tunahsu.github.io/favicon.png">
     
 
     
 
-    <link rel="canonical" href="https://tunahsu.github.io/post/winograd-algorithm/">
+    <link rel="canonical" href="https://tunahsu.github.io/post/dyncnn/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -266,15 +266,15 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title">
-      Winograd algorithm 卷積神經網路中的加速卷積算法
+      DynCNN 用於監控影像的動態卷積神經網路
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time datetime="2022-04-12T16:53:08&#43;08:00">
+      <time datetime="2022-04-13T15:16:10&#43;08:00">
         
-  四月 12, 2022
+  四月 13, 2022
 
       </time>
     
@@ -295,128 +295,59 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
           
           <div class="post-content markdown">
             <div class="main-content-wrap">
-              <p>作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation</p>
-<p>在查了許多有關 Winograd 演算法的介紹後，發現大多數的文章都只有列出公式跟矩陣，並詳細說明其作用以及從何而來，所以這篇筆記將會參考網路上的文章，用簡單的例子來說明其原理，再針對一般化公式中的各個矩陣做解釋</p>
-<h1 id="1d-winograd">1D Winograd</h1>
-<p>以一維的卷積為例，輸入資訊為 $ d = \begin{bmatrix} d_0 &amp; d_1 &amp; d_2 &amp; d_3 \end{bmatrix} ^ T $，卷積核為 $ g = \begin{bmatrix} g_0 &amp; g_1 &amp; g_2 \end{bmatrix} ^ T $ ，那麼 $ F(2, 3) $ 的卷積可以寫成以下形式：</p>
-<p>$$
-F(2, 3) = 
-\begin{bmatrix}
-d_0 &amp; d_1 &amp; d_2 \\
-d_1 &amp; d_2 &amp; d_3
-\end{bmatrix}
-\begin{bmatrix}
-g_0 \\ g_1 \\ g_2
-\end{bmatrix}
-= 
-\begin{bmatrix}
-d_0 g_0 + d_1 g_1 + d_2 g_2 \\
-d_1 g_0 + d_2 g_1 + d_3 g_2
-\end{bmatrix}
-=
-\begin{bmatrix}
-r_0 \\ r_1
-\end{bmatrix}
-$$</p>
-<p>如果是一般的矩陣乘法則有 6 次的乘法計算及 4 次加法，但輸入資訊轉換成矩陣並不是任意矩陣，而是有規律地分布著大量重複元素的矩陣，那麼就可以透過 Winograd 演算法寫成以下形式：</p>
-<p>$$
-F(2, 3) = 
-\begin{bmatrix}
-d_0 &amp; d_1 &amp; d_2 \\
-d_1 &amp; d_2 &amp; d_3
-\end{bmatrix}
-\begin{bmatrix}
-g_0 \\ g_1 \\ g_2
-\end{bmatrix}
-= 
-\begin{bmatrix}
-m_1 + m_2 + m_3 \\
-m_2 - m_3 - m_4
-\end{bmatrix}
-$$</p>
-<p>其中，</p>
-<p>$$ m_1 = (d_0 - d_2) g_0 $$
-$$ m_2 = (d_1 + d_2) \frac{g_0 + g_1 + g_2}{2} $$
-$$ m_3 = (d_2 - d_1) \frac{g_0 - g_1 + g_2}{2} $$
-$$ m_4 = (d_1 - d_3) g_2 $$</p>
-<p>由於在卷積運算中，卷積核中的元素為固定的，所以有關卷積核的運算只需一次，可以被忽略，故乘法的次數可降為 4</p>
-<h1 id="矩陣化">矩陣化</h1>
-<p>接下來我們將一維卷積公式推廣成矩陣的形式：</p>
-<p>$$ Y = A ^ T[(Gg) \odot (B ^ T d)] $$</p>
-<p>其中 $ \odot $ 表示 Hadamard product 矩陣中對應位置的元素相乘，以下將會將此公式拆解成三個部分，首先我們對各個符號做解釋：</p>
+              <p>智慧監控所使用的CNN的架構大部分是來自 ImageNet Challenge 比賽中獲勝的網路架構，這些較著名的CNN 架構具有更深層且更複雜的神經網路從而達到更高的精度，但在現今的硬體技術發展下，高端硬體設備已經可以讓這些複雜的神經網路達成 real-time 的效果。但在智慧監控領域中多通道的影像，需要同時進行處理並實現及時運算，考量這些大量監視器影像所需的計算成本，以現今的硬體設備還是難以達成</p>
+<h1 id="摘要">摘要</h1>
+<p><a href="https://openreview.net/forum?id=HyVxPsC9tm">DynCNN: An Effective Dynamic Architecture on Convolutional Neural Network for Surveillance Videos</a> 此篇論文主要研究內容希望利用連續影像的場景具有高相似度的特性，改善傳統 CNN 的運算架構，並適時裁減神經網路的權重參數以減少冗餘的運算量，從而降低功率並達到加速目的，使得系統能在現今的高端硬體設備上，更有效率地處理多通道的大量監控影像</p>
+<p>監控影像系統中，由於監控攝影設備是被固定在天花板或是牆壁上，所拍攝出來的影像都是在同一個場景，因此影像之間的背景具有高相似度的特性，在不考慮其它外在因素下會發現影像場景的變化佔整張影像平均不到 30%，如下圖</p>
+<figure align="center">
+    <img src="https://i.imgur.com/x6589qS.png">
+    <figcaption>智慧監控影像</figcaption>
+</figure>
+<p>在處理這種高相似性的連續影像通常會將整張影像一起計算，所以此研究針對此特性改善傳統 CNN 架構，改善後的架構只針對有改變的影像做卷積，從而達到減少運算量並降低功率加快速度的目標</p>
+<h1 id="方法">方法</h1>
+<h2 id="動態卷積神經網路模型">動態卷積神經網路模型</h2>
+<p>作者提出了動態卷積神經網路架構(Dynamic Convolutional Neural Networks, DynCNN)，能夠根據每一層的<strong>內部差異圖</strong>(Inner Difference Map, iDM)重新運算擷取新的特徵，並保留位變化區塊的特徵其流程大致如下：</p>
 <ul>
-<li>$ A ^ T $ 為輸出變換矩陣，大小為 m x (m + r - 1)</li>
-<li>$ G $ 為卷積核變換矩陣，大小為 (m + r - 1) x r</li>
-<li>$ B ^ T $ 為輸入變換矩陣，大小為 (m + r - 1) x (m + r - 1)</li>
-<li>$ d $ 為輸入資訊，大小為 (m + r - 1) x 1</li>
-<li>$ g $ 卷積核，大小為 r x 1</li>
+<li>首先會對 Frame<sub>t</sub> 與 Frame<sub>t - 1</sub> 使用<strong>幀差法</strong>(Frame Differencin)得到<strong>輸入差異圖</strong>(Input Difference Map, IDM)</li>
+<li>利用膨脹運算子(Dilation Operator)推導出第一層的內部差異圖(1<sup>st</sup> iDM<sub>t</sub>)，再藉由內部差異圖上的標記決定該層特徵圖(Feature Map, FM)上那些特徵值需要被重新計算</li>
+<li>往後的每一層內部差異圖(n<sup>th</sup> iDM<sub>t</sub>)也藉由前一層內部差異圖((n - 1)<sup>th</sup> iDM<sub>t</sub>)做膨脹運算推導出來</li>
+<li>Frame<sub>t</sub> 的每一層特徵圖(n<sup>th</sup> FM<sub>t</sub>)會先透過對應層的內部差異圖(n<sup>th</sup> iDM<sub>t</sub>)上的資訊得知需要被更新的特徵值，此去控制 Frame<sub>t</sub> 的 (n - 1)<sup>th</sup> FM<sub>t</sub> 的哪些區塊需要做卷積運算，並將卷積後的結果代入到上一幀的該層特徵圖 n<sup>th</sup> FM<sub>t-1</sub> 做更新的動作來生成當前幀的該層特徵圖</li>
 </ul>
-<p>這邊方便推導我們假設 $ m = 2, r = 3 $ ，為了讓輸入矩陣與卷積核矩陣能夠做內積，必須先乘上變換矩陣讓它們維度一致，而變換矩陣中的元素可由上述 $ F(2, 3) $ 的例子中各項係數得知</p>
-<p>$$
-Gg = 
-\begin{bmatrix}
-1 &amp; 0 &amp; 0 \\
-\frac{1}{2} &amp; \frac{1}{2} &amp; \frac{1}{2} \\
-\frac{1}{2} &amp; \frac{-1}{2} &amp; \frac{1}{2} \\
-0 &amp; 0 &amp; 1
-\end{bmatrix}
-\begin{bmatrix}
-g_0 \\ g_1 \\ g_2
-\end{bmatrix}
-= 
-\begin{bmatrix}
-g_0 \\
-\frac{g_0 + g_1 + g_2}{2} \\
-\frac{g_0 - g_1 + g_2}{2} \\
-g_2
-\end{bmatrix}
-$$</p>
-<p>$$
-B ^ T d = 
-\begin{bmatrix}
-1 &amp; 0 &amp; -1 &amp; 0 \\
-0 &amp; 1 &amp; 1 &amp; 0 \\
-0 &amp; -1 &amp; 1 &amp; 0 \\
-0 &amp; 1 &amp; 0 &amp; -1
-\end{bmatrix}
-\begin{bmatrix}
-d_0 \\ d_1 \\ d_2 \\ d_3
-\end{bmatrix}
-= 
-\begin{bmatrix}
-d_0 - d_2 \\
-d_1 + d_2 \\
-d_2 - d_1 \\
-d_1 - d_3
-\end{bmatrix}
-$$</p>
-<p>將以上兩項做內積我們就可以得到一向量為 $ \begin{bmatrix} m_1 &amp; m_2 &amp; m_3 &amp; m_4 \end{bmatrix} ^ T $ ，最後在將其左乘 $ A ^ T $ 可得</p>
-<p>$$
-Y = A ^ T
-\begin{bmatrix}
-m_1 \\
-m_2 \\
-m_3 \\
-m_4
-\end{bmatrix}
-=
-\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; 0 \\
-0 &amp; 1 &amp; -1 &amp; -1 \\
-\end{bmatrix}
-\begin{bmatrix}
-m_1 \\
-m_2 \\
-m_3 \\
-m_4
-\end{bmatrix}
-=
-\begin{bmatrix}
-m_1 + m_2 + m_3 \\
-m_2 - m_3 - m_4
-\end{bmatrix}
-$$</p>
-<p>從矩陣關係以及其大小我們可以看出原本需要 m x r 次的乘法可以降為 m + r - 1 次，在兩者都很大的情況下可以得到很大的效能提升，至於一維以上的情況可以參考<a href="https://zhuanlan.zhihu.com/p/260109670">详解卷积中的Winograd加速算法</a></p>
+<figure align="center">
+    <img src="https://i.imgur.com/gWzPkHA.png">
+    <figcaption>動態卷積神經網路架構</figcaption>
+</figure>
+<h3 id="輸入差異圖">輸入差異圖</h3>
+<p>透過幀差法獲得，此方法通常被應用在運動目標檢測和分割，原理為在 image sequence 中的相鄰兩幀採用基於像素的時間差分，對相對應的像素點相減再通過二值化來提取影像中的運動區域，通常差分途可以表示為：</p>
+<p>$$ \Delta I(i, j) = I_{curr}(i, j) - I_{prev}(i, j) $$</p>
+<p>此式子用來計算相鄰兩幀之間影像強度的差異，由於影像中有許多訊干擾，像是鏡頭斑點雜訊、環境光線變化等等，在亮度變化不大的情況下可以藉由設定<strong>閾值</strong>(Threshold)來過濾這些雜訊的干擾，如果對應像素值得變化於是先設定的閾值，則可以認為以處為背景像素，判斷式如下：</p>
+<p>$$ D(i, j)= \begin{cases} 1, &amp; \text{if } \vert \Delta I(i, j) \vert &gt; \Theta_{IDM} \\ 0, &amp; \text{otherwise} \end{cases} $$</p>
+<p>其中 $  \Theta_{IDM} $ 代表閾值，$ D(i, j) $ 則表示影像中發生變化的區域，該公式預設的閾值大小很重要，因為會影響準確度和 inference 速度，當閾值過大時有可能會忽略掉許多真正的<strong>變化點</strong>(Change Point)，反之則會造成過多不必要的計算</p>
+<h3 id="內部差異圖">內部差異圖</h3>
+<p>在卷積過程中，以大小為 3 x 3 的卷積核為例，每個特徵圖上的一個點都是由上一層所對應的九個點來決定，當上一層的某個點改變時隨即牽連到下一層的九個點，如下圖所示，這個過程稱之為<strong>擴散效應</strong>，由上一段所提到的輸入差異圖可以得知那些像素點有改變，代表下一層特徵圖對應的特徵點本身及周圍都會被影響，因此此架構使用內部差異圖來記錄這些被影響的特徵點為 <strong>Impacted Points</strong> 來表示需要被更新的點</p>
+<figure align="center">
+    <img src="https://i.imgur.com/UiiYLwC.png">
+    <figcaption>3 x 3 卷積核進行卷積過程</figcaption>
+</figure>
+<p>基於擴散效應，每層內部差異圖可以透過對上一層的差異圖(內部差異圖或輸入差異圖，簡稱為差異圖)做膨脹運算來推算被影響的像素點位置</p>
+<p>$$ A \oplus B = {x \vert B_x \cap A \neq 0} $$</p>
+<p>在此研究中輸入集合 $ A $ 代表差異圖，結構元素 $ B $ 則代表卷積核的形狀，以一個兩層的 CNN 為例，第一層內部差異圖會根據輸入差異圖上的標記合當前卷積核的擴散效應去決定需要被更新的位置，之後每一層內部差異圖也都會根據前一層的內部差異圖來決定需被更新的位置</p>
+<figure align="center">
+    <img src="https://i.imgur.com/ecrzJ10.png">
+    <figcaption>經膨脹運算產生的內部差異圖</figcaption>
+</figure>
+<h3 id="動態卷積">動態卷積</h3>
+<p>內部差異圖記錄哪些需要被更新的特徵點，這些需要被更新的特徵點，其對應前一層所需的像素點(Needed Pixels)可以透過該層卷積核大小資訊，並結合膨脹運算子推出來，如下圖所示</p>
+<figure align="center">
+    <img src="https://i.imgur.com/bSDEvoX.png">
+    <figcaption>對應所需的像素點</figcaption>
+</figure>
+<p>由上圖可以看出動態卷積行為是特定像素運算而非連續區域的卷積運算，這對於一般所使用的神經網路加速函式庫的方式是不同的，例如 cudnn 其所提供的卷積無法指定特定的像素點做計算，為了減少不必要的計算作者將 Impacted Pixels 與對應的 Needed Pixels 直接進行資料搬移至另一個連續的記憶體空間，這種將原本特徵圖映射至另一段記憶體空間進而做卷積運算的方式即為動態卷積</p>
+<figure align="center">
+    <img src="https://i.imgur.com/Bb4f7JX.png">
+    <figcaption>特徵點資料搬移示意圖</figcaption>
+</figure>
+<p>這邊以數字來量化研究成果，若以一張 15 x 15 的監控影像來做為輸入，使用一層的卷積網路架構且與 4 個 3 x 3 的卷積核做運算，總運算量高達 8.1k 的每秒浮點數運算次數(Floating-point operations per second, FLPOS)，但如果場景中變化的只有 30 個像素點，經由提出架構可以讓運算量降至 1.08k FLOPS，與一般卷積的運算量相差約 8.43 倍</p>
               
 
 
@@ -430,9 +361,9 @@ $$</p>
                   <div class="post-footer-tags">
                     <span class="text-color-light text-small">標籤</span><br/>
                     
-  <a class="tag tag--primary tag--small" href="https://tunahsu.github.io/tags/winograd-algorithm/">winograd algorithm</a>
+  <a class="tag tag--primary tag--small" href="https://tunahsu.github.io/tags/dyncnn/">dyncnn</a>
 
-  <a class="tag tag--primary tag--small" href="https://tunahsu.github.io/tags/acceleration/">acceleration</a>
+  <a class="tag tag--primary tag--small" href="https://tunahsu.github.io/tags/surveillance/">surveillance</a>
 
                   </div>
                 
@@ -445,7 +376,7 @@ $$</p>
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/dyncnn/" data-tooltip="DynCNN 用於監控影像的動態卷積神經網路" aria-label="下一篇: DynCNN 用於監控影像的動態卷積神經網路">
+            <a class="post-action-btn btn btn--disabled">
           
               <i class="fa fa-angle-left"></i>
               <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
@@ -453,7 +384,7 @@ $$</p>
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--disabled">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/winograd-algorithm/" data-tooltip="Winograd algorithm 卷積神經網路中的加速卷積算法" aria-label="上一篇: Winograd algorithm 卷積神經網路中的加速卷積算法">
           
               <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
               <i class="fa fa-angle-right"></i>
@@ -471,19 +402,19 @@ $$</p>
     </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tunahsu.github.io/post/winograd-algorithm/" title="分享到 Facebook" aria-label="分享到 Facebook">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tunahsu.github.io/post/dyncnn/" title="分享到 Facebook" aria-label="分享到 Facebook">
           <i class="fab fa-facebook-square" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tunahsu.github.io/post/winograd-algorithm/" title="分享到 Twitter" aria-label="分享到 Twitter">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tunahsu.github.io/post/dyncnn/" title="分享到 Twitter" aria-label="分享到 Twitter">
           <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://tunahsu.github.io/post/winograd-algorithm/" title="分享到 Linkedin" aria-label="分享到 Linkedin">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://tunahsu.github.io/post/dyncnn/" title="分享到 Linkedin" aria-label="分享到 Linkedin">
           <i class="fab fa-linkedin" aria-hidden="true"></i>
         </a>
       </li>
@@ -514,9 +445,9 @@ $$</p>
     </div>
     <script type="text/javascript">
       var disqus_config = function() {
-        this.page.url = 'https:\/\/tunahsu.github.io\/post\/winograd-algorithm\/';
+        this.page.url = 'https:\/\/tunahsu.github.io\/post\/dyncnn\/';
         
-          this.page.identifier = '\/post\/winograd-algorithm\/'
+          this.page.identifier = '\/post\/dyncnn\/'
         
       };
       (function() {
@@ -552,7 +483,7 @@ $$</p>
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/dyncnn/" data-tooltip="DynCNN 用於監控影像的動態卷積神經網路" aria-label="下一篇: DynCNN 用於監控影像的動態卷積神經網路">
+            <a class="post-action-btn btn btn--disabled">
           
               <i class="fa fa-angle-left"></i>
               <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
@@ -560,7 +491,7 @@ $$</p>
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--disabled">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/winograd-algorithm/" data-tooltip="Winograd algorithm 卷積神經網路中的加速卷積算法" aria-label="上一篇: Winograd algorithm 卷積神經網路中的加速卷積算法">
           
               <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
               <i class="fa fa-angle-right"></i>
@@ -578,19 +509,19 @@ $$</p>
     </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tunahsu.github.io/post/winograd-algorithm/" title="分享到 Facebook" aria-label="分享到 Facebook">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tunahsu.github.io/post/dyncnn/" title="分享到 Facebook" aria-label="分享到 Facebook">
           <i class="fab fa-facebook-square" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tunahsu.github.io/post/winograd-algorithm/" title="分享到 Twitter" aria-label="分享到 Twitter">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tunahsu.github.io/post/dyncnn/" title="分享到 Twitter" aria-label="分享到 Twitter">
           <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://tunahsu.github.io/post/winograd-algorithm/" title="分享到 Linkedin" aria-label="分享到 Linkedin">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://tunahsu.github.io/post/dyncnn/" title="分享到 Linkedin" aria-label="分享到 Linkedin">
           <i class="fab fa-linkedin" aria-hidden="true"></i>
         </a>
       </li>
@@ -621,19 +552,19 @@ $$</p>
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Fwinograd-algorithm%2F" aria-label="分享到 Facebook">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Fdyncnn%2F" aria-label="分享到 Facebook">
           <i class="fab fa-facebook-square" aria-hidden="true"></i><span>分享到 Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Fwinograd-algorithm%2F" aria-label="分享到 Twitter">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Fdyncnn%2F" aria-label="分享到 Twitter">
           <i class="fab fa-twitter" aria-hidden="true"></i><span>分享到 Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Fwinograd-algorithm%2F" aria-label="分享到 Linkedin">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Fdyncnn%2F" aria-label="分享到 Linkedin">
           <i class="fab fa-linkedin" aria-hidden="true"></i><span>分享到 Linkedin</span>
         </a>
       </li>

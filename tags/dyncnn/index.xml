@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tuna&#39;s Site</title>
-    <link>https://tunahsu.github.io/post/</link>
-    <description>Recent content in Posts on Tuna&#39;s Site</description>
+    <title>dyncnn on Tuna&#39;s Site</title>
+    <link>https://tunahsu.github.io/tags/dyncnn/</link>
+    <description>Recent content in dyncnn on Tuna&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 13 Apr 2022 15:16:10 +0800</lastBuildDate><atom:link href="https://tunahsu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Apr 2022 15:16:10 +0800</lastBuildDate><atom:link href="https://tunahsu.github.io/tags/dyncnn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DynCNN 用於監控影像的動態卷積神經網路</title>
       <link>https://tunahsu.github.io/post/dyncnn/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://tunahsu.github.io/post/dyncnn/</guid>
       <description>&lt;p&gt;智慧監控所使用的CNN的架構大部分是來自 ImageNet Challenge 比賽中獲勝的網路架構，這些較著名的CNN 架構具有更深層且更複雜的神經網路從而達到更高的精度，但在現今的硬體技術發展下，高端硬體設備已經可以讓這些複雜的神經網路達成 real-time 的效果。但在智慧監控領域中多通道的影像，需要同時進行處理並實現及時運算，考量這些大量監視器影像所需的計算成本，以現今的硬體設備還是難以達成&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Winograd algorithm 卷積神經網路中的加速卷積算法</title>
-      <link>https://tunahsu.github.io/post/winograd-algorithm/</link>
-      <pubDate>Tue, 12 Apr 2022 16:53:08 +0800</pubDate>
-      
-      <guid>https://tunahsu.github.io/post/winograd-algorithm/</guid>
-      <description>&lt;p&gt;作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation&lt;/p&gt;</description>
     </item>
     
   </channel>

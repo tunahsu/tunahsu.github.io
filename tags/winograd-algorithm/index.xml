@@ -8,7 +8,7 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 12 Apr 2022 16:53:08 +0800</lastBuildDate><atom:link href="https://tunahsu.github.io/tags/winograd-algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Winograd algorithm</title>
+      <title>Winograd algorithm 卷積神經網路中的加速卷積算法</title>
       <link>https://tunahsu.github.io/post/winograd-algorithm/</link>
       <pubDate>Tue, 12 Apr 2022 16:53:08 +0800</pubDate>
       

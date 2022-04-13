@@ -1,5 +1,5 @@
 ---
-title: "Winograd algorithm"
+title: "Winograd algorithm 卷積神經網路中的加速卷積算法"
 slug: winograd-algorithm
 date: 2022-04-12T16:53:08+08:00
 categories:
@@ -8,7 +8,7 @@ categories:
 tags:
 - winograd algorithm
 - acceleration
-thumbnailImage: //s2.ax1x.com/2019/05/22/VpBFc6.png
+thumbnailImage: https://s2.ax1x.com/2019/05/22/VpBFc6.png
 ---
 
 作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation
@@ -17,7 +17,7 @@ thumbnailImage: //s2.ax1x.com/2019/05/22/VpBFc6.png
 
 在查了許多有關 Winograd 演算法的介紹後，發現大多數的文章都只有列出公式跟矩陣，並詳細說明其作用以及從何而來，所以這篇筆記將會參考網路上的文章，用簡單的例子來說明其原理，再針對一般化公式中的各個矩陣做解釋
 
-## 1D Winograd
+# 1D Winograd
 
 以一維的卷積為例，輸入資訊為 $ d = \begin{bmatrix} d_0 & d_1 & d_2 & d_3 \end{bmatrix} ^ T $，卷積核為 $ g = \begin{bmatrix} g_0 & g_1 & g_2 \end{bmatrix} ^ T $ ，那麼 $ F(2, 3) $ 的卷積可以寫成以下形式：
 
@@ -68,13 +68,13 @@ $$ m_4 = (d_1 - d_3) g_2 $$
 
 由於在卷積運算中，卷積核中的元素為固定的，所以有關卷積核的運算只需一次，可以被忽略，故乘法的次數可降為 4
 
-## 矩陣化
+# 矩陣化
 
 接下來我們將一維卷積公式推廣成矩陣的形式：
 
-$$ Y = A ^ T[(Gg) \bigodot (B ^ T d)] $$
+$$ Y = A ^ T[(Gg) \odot (B ^ T d)] $$
 
-其中 $ \bigodot $ 表示 Hadamard product 矩陣中對應位置的元素相乘，以下將會將此公式拆解成三個部分，首先我們對各個符號做解釋：
+其中 $ \odot $ 表示 Hadamard product 矩陣中對應位置的元素相乘，以下將會將此公式拆解成三個部分，首先我們對各個符號做解釋：
 
 - $ A ^ T $ 為輸出變換矩陣，大小為 m x (m + r - 1)
 - $ G $ 為卷積核變換矩陣，大小為 (m + r - 1) x r

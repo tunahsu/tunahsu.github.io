@@ -1,5 +1,6 @@
 ---
 title: "DynCNN 用於監控影像的動態卷積神經網路"
+slug: dyncnn
 date: 2022-04-13T15:16:10+08:00
 categories:
 - deep learning

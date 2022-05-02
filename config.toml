@@ -107,6 +107,12 @@ canonifyurls = true
   name = "LinkedIn"
   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-linkedin\" aria-hidden=\"true\"></i>"
   url = "https://www.linkedin.com/in/wesley-hsu-tw"
+[[menu.links]]
+  weight = 3
+  identifier = "googlemaps"
+  name = "Google Maps"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-google\" aria-hidden=\"true\"></i>"
+  url = "https://maps.app.goo.gl/pxVXaSEkyQ3qMBvN8"
 
 # -------------
 # Customization

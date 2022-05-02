@@ -15,7 +15,7 @@ thumbnailImage: https://i.imgur.com/x6589qS.png
 
 <!--more-->
 
-# 摘要
+# Abstract
 
 [DynCNN: An Effective Dynamic Architecture on Convolutional Neural Network for Surveillance Videos](https://openreview.net/forum?id=HyVxPsC9tm) 此篇論文主要研究內容希望利用連續影像的場景具有高相似度的特性，改善傳統 CNN 的運算架構，並適時裁減神經網路的權重參數以減少冗餘的運算量，從而降低功率並達到加速目的，使得系統能在現今的高端硬體設備上，更有效率地處理多通道的大量監控影像
 
@@ -28,7 +28,7 @@ thumbnailImage: https://i.imgur.com/x6589qS.png
 
 在處理這種高相似性的連續影像通常會將整張影像一起計算，所以此研究針對此特性改善傳統 CNN 架構，改善後的架構只針對有改變的影像做卷積，從而達到減少運算量並降低功率加快速度的目標
 
-# 方法
+# Method
 
 ## 動態卷積神經網路模型
 

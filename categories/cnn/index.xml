@@ -6,7 +6,16 @@
     <description>Recent content in cnn on Tuna&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 13 Apr 2022 15:16:10 +0800</lastBuildDate><atom:link href="https://tunahsu.github.io/categories/cnn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 22:56:56 +0800</lastBuildDate><atom:link href="https://tunahsu.github.io/categories/cnn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GaborNet 在卷積神經網路中可學習的 Gabor 濾波器參數</title>
+      <link>https://tunahsu.github.io/post/gabornet/</link>
+      <pubDate>Mon, 02 May 2022 22:56:56 +0800</pubDate>
+      
+      <guid>https://tunahsu.github.io/post/gabornet/</guid>
+      <description>&lt;p&gt;以 Dennis Gabor 命名的 Gabor 濾波器，是一種用於紋理分析的線性濾波器，主要分析的是影像在特定區域的特定方向上是否有特定頻率的內容，許多視覺科學家認為 Gabor 的頻率和方向的表達與人類的視覺系統很類似。研究發現，Gabor 濾波器特別適合用於紋理表示和辨識。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>DynCNN 用於監控影像的動態卷積神經網路</title>
       <link>https://tunahsu.github.io/post/dyncnn/</link>

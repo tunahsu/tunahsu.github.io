@@ -47,7 +47,7 @@ canonifyurls = true
 # Author
 # ------
 [author]
-  name = "Tuns Hsu"
+  name = "Tuna Hsu"
   bio = "One man's crappy software is another man's full time job!"
   job = "M.S. student, Taiwan Tech"
   location = "Taipei City, Taiwan"

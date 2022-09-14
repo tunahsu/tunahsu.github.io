@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>replknet on Tuna&#39;s Site</title>
+    <link>https://tunahsu.github.io/tags/replknet/</link>
+    <description>Recent content in replknet on Tuna&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 07 Sep 2022 16:05:31 +0800</lastBuildDate><atom:link href="https://tunahsu.github.io/tags/replknet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RepLKNet</title>
+      <link>https://tunahsu.github.io/post/replknet/</link>
+      <pubDate>Wed, 07 Sep 2022 16:05:31 +0800</pubDate>
+      
+      <guid>https://tunahsu.github.io/post/replknet/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2203.06717&#34;&gt;Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs&lt;/a&gt; 近年來 Transformer 的崛起，普遍認為 self-attention 在影像領域可以表現得比 CNN 更好，這篇發表在 CVPR 2022 上的研究表示認為這不是因為 Self-attention 的設計形式(query-key-value)，而是因為其有效感受野特別大，因此作者提出了提出了超大 kernel 的模型，在一系列的實驗下證明較大的卷積核在現代模型優化的設計下，計算量並不會提升多少且在一些 downstream tasks 的效能更甚於較深但 kernel 較小的網路架構。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

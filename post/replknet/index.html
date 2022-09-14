@@ -16,8 +16,8 @@
     
   },
   "name":"Tuna\u0027s Site",
-  "description":"\u003cp\u003e以 Dennis Gabor 命名的 Gabor 濾波器，是一種用於紋理分析的線性濾波器，主要分析的是影像在特定區域的特定方向上是否有特定頻率的內容，許多視覺科學家認為 Gabor 的頻率和方向的表達與人類的視覺系統很類似。研究發現，Gabor 濾波器特別適合用於紋理表示和辨識。\u003c\/p\u003e",
-  "url":"https:\/\/tunahsu.github.io\/post\/gabornet\/",
+  "description":"\u003cp\u003e\u003ca href=\u0022https:\/\/arxiv.org\/abs\/2203.06717\u0022\u003eScaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs\u003c\/a\u003e 近年來 Transformer 的崛起，普遍認為 self-attention 在影像領域可以表現得比 CNN 更好，這篇發表在 CVPR 2022 上的研究表示認為這不是因為 Self-attention 的設計形式(query-key-value)，而是因為其有效感受野特別大，因此作者提出了提出了超大 kernel 的模型，在一系列的實驗下證明較大的卷積核在現代模型優化的設計下，計算量並不會提升多少且在一些 downstream tasks 的效能更甚於較深但 kernel 較小的網路架構。\u003c\/p\u003e",
+  "url":"https:\/\/tunahsu.github.io\/post\/replknet\/",
   "keywords":"[]"
 }
 
@@ -28,25 +28,25 @@
 <meta name="generator" content="Hugo 0.102.3 with theme Tranquilpeak 0.5.3-BETA">
 <meta name="author" content="Tuna Hsu">
 <meta name="keywords" content="">
-<meta name="description" content="以 Dennis Gabor 命名的 Gabor 濾波器，是一種用於紋理分析的線性濾波器，主要分析的是影像在特定區域的特定方向上是否有特定頻率的內容，許多視覺科學家認為 Gabor 的頻率和方向的表達與人類的視覺系統很類似。研究發現，Gabor 濾波器特別適合用於紋理表示和辨識。">
+<meta name="description" content="Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs 近年來 Transformer 的崛起，普遍認為 self-attention 在影像領域可以表現得比 CNN 更好，這篇發表在 CVPR 2022 上的研究表示認為這不是因為 Self-attention 的設計形式(query-key-value)，而是因為其有效感受野特別大，因此作者提出了提出了超大 kernel 的模型，在一系列的實驗下證明較大的卷積核在現代模型優化的設計下，計算量並不會提升多少且在一些 downstream tasks 的效能更甚於較深但 kernel 較小的網路架構。">
 
 
-<meta property="og:description" content="以 Dennis Gabor 命名的 Gabor 濾波器，是一種用於紋理分析的線性濾波器，主要分析的是影像在特定區域的特定方向上是否有特定頻率的內容，許多視覺科學家認為 Gabor 的頻率和方向的表達與人類的視覺系統很類似。研究發現，Gabor 濾波器特別適合用於紋理表示和辨識。">
+<meta property="og:description" content="Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs 近年來 Transformer 的崛起，普遍認為 self-attention 在影像領域可以表現得比 CNN 更好，這篇發表在 CVPR 2022 上的研究表示認為這不是因為 Self-attention 的設計形式(query-key-value)，而是因為其有效感受野特別大，因此作者提出了提出了超大 kernel 的模型，在一系列的實驗下證明較大的卷積核在現代模型優化的設計下，計算量並不會提升多少且在一些 downstream tasks 的效能更甚於較深但 kernel 較小的網路架構。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="GaborNet 在卷積神經網路中可學習的 Gabor 濾波器參數">
-<meta name="twitter:title" content="GaborNet 在卷積神經網路中可學習的 Gabor 濾波器參數">
-<meta property="og:url" content="https://tunahsu.github.io/post/gabornet/">
-<meta property="twitter:url" content="https://tunahsu.github.io/post/gabornet/">
+<meta property="og:title" content="RepLKNet">
+<meta name="twitter:title" content="RepLKNet">
+<meta property="og:url" content="https://tunahsu.github.io/post/replknet/">
+<meta property="twitter:url" content="https://tunahsu.github.io/post/replknet/">
 <meta property="og:site_name" content="Tuna&#39;s Site">
-<meta property="og:description" content="以 Dennis Gabor 命名的 Gabor 濾波器，是一種用於紋理分析的線性濾波器，主要分析的是影像在特定區域的特定方向上是否有特定頻率的內容，許多視覺科學家認為 Gabor 的頻率和方向的表達與人類的視覺系統很類似。研究發現，Gabor 濾波器特別適合用於紋理表示和辨識。">
-<meta name="twitter:description" content="以 Dennis Gabor 命名的 Gabor 濾波器，是一種用於紋理分析的線性濾波器，主要分析的是影像在特定區域的特定方向上是否有特定頻率的內容，許多視覺科學家認為 Gabor 的頻率和方向的表達與人類的視覺系統很類似。研究發現，Gabor 濾波器特別適合用於紋理表示和辨識。">
+<meta property="og:description" content="Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs 近年來 Transformer 的崛起，普遍認為 self-attention 在影像領域可以表現得比 CNN 更好，這篇發表在 CVPR 2022 上的研究表示認為這不是因為 Self-attention 的設計形式(query-key-value)，而是因為其有效感受野特別大，因此作者提出了提出了超大 kernel 的模型，在一系列的實驗下證明較大的卷積核在現代模型優化的設計下，計算量並不會提升多少且在一些 downstream tasks 的效能更甚於較深但 kernel 較小的網路架構。">
+<meta name="twitter:description" content="Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs 近年來 Transformer 的崛起，普遍認為 self-attention 在影像領域可以表現得比 CNN 更好，這篇發表在 CVPR 2022 上的研究表示認為這不是因為 Self-attention 的設計形式(query-key-value)，而是因為其有效感受野特別大，因此作者提出了提出了超大 kernel 的模型，在一系列的實驗下證明較大的卷積核在現代模型優化的設計下，計算量並不會提升多少且在一些 downstream tasks 的效能更甚於較深但 kernel 較小的網路架構。">
 <meta property="og:locale" content="zh-tw">
 
   
-    <meta property="article:published_time" content="2022-05-02T22:56:56">
+    <meta property="article:published_time" content="2022-09-07T16:05:31">
   
   
-    <meta property="article:modified_time" content="2022-05-02T22:56:56">
+    <meta property="article:modified_time" content="2022-09-07T16:05:31">
   
   
   
@@ -58,9 +58,9 @@
   
   
     
-      <meta property="article:tag" content="gabornet">
+      <meta property="article:tag" content="replknet">
     
-      <meta property="article:tag" content="gabor filter">
+      <meta property="article:tag" content="large kernel">
     
   
 
@@ -80,18 +80,18 @@
 
 
 
-  <meta property="og:image" content="https://i.imgur.com/bVLduli.png">
-  <meta property="twitter:image" content="https://i.imgur.com/bVLduli.png">
+  <meta property="og:image" content="https://i.imgur.com/9TIH6oH.png">
+  <meta property="twitter:image" content="https://i.imgur.com/9TIH6oH.png">
 
 
-    <title>GaborNet 在卷積神經網路中可學習的 Gabor 濾波器參數</title>
+    <title>RepLKNet</title>
 
     <link rel="icon" href="https://tunahsu.github.io/favicon.png">
     
 
     
 
-    <link rel="canonical" href="https://tunahsu.github.io/post/gabornet/">
+    <link rel="canonical" href="https://tunahsu.github.io/post/replknet/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -277,15 +277,15 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title">
-      GaborNet 在卷積神經網路中可學習的 Gabor 濾波器參數
+      RepLKNet
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time datetime="2022-05-02T22:56:56&#43;08:00">
+      <time datetime="2022-09-07T16:05:31&#43;08:00">
         
-  五月 2, 2022
+  九月 7, 2022
 
       </time>
     
@@ -306,122 +306,48 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
           
           <div class="post-content markdown">
             <div class="main-content-wrap">
-              <p>以 Dennis Gabor 命名的 Gabor 濾波器，是一種用於紋理分析的線性濾波器，主要分析的是影像在特定區域的特定方向上是否有特定頻率的內容，許多視覺科學家認為 Gabor 的頻率和方向的表達與人類的視覺系統很類似。研究發現，Gabor 濾波器特別適合用於紋理表示和辨識。</p>
-<h1 id="abstract">Abstract</h1>
-<p><a href="https://ieeexplore.ieee.org/abstract/document/9030571">GaborNet: Gabor filters with learnable parameters in deep convolutional neural network</a> 中針對深度卷積網路的影像辨識系統，提出了一種基於 Gabor 濾波器的卷積層，主要於收斂訴的提升與訓練複雜度上做出改善，其中 Gabor function 中的參數是可以透過反向傳播來更新的。該系統主要是用 Python 來實現，他們在幾個 dataset 上進行測試，其結果優於傳統的卷積神經網路</p>
-<h1 id="theory">Theory</h1>
-<p>傅立葉轉換在訊號處理上可以幫助我們將數位影像從空間域轉到頻率域，擷取到在空間域上不容易取得的特徵，但是經過傅立葉轉換後影像在不同位置頻率特徵往往會混和在一起，但是 Gabor 濾波器卻可以擷取局部空間的頻率特徵，是一個很好的紋理檢測工具</p>
-<p>在二維空間中將一個<strong>三角函數</strong>(本文使用餘弦函數)與一個<strong>高斯函數</strong>疊加我們就可以得到 Gabor 濾波器，如下圖</p>
-<figure align="center">
-    <img src="https://i.imgur.com/LasA4c1.png">
-    <figcaption>2D Gabor function</figcaption>
-</figure>
-<p>原文使用餘弦函數與高斯函數相乘來得到 Gabor function，但文中並未對其中的各項參數做詳細的講解，以下將會逐一介紹</p>
-<p>$$ g(x, y, \omega, \theta, \varphi, \sigma) = exp(-\frac{x ^ {’2} + y ^ {’2}}{2 \sigma ^ 2}) cos(\omega x ^ {’} + \varphi) $$</p>
+              <p><a href="https://arxiv.org/abs/2203.06717">Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs</a> 近年來 Transformer 的崛起，普遍認為 self-attention 在影像領域可以表現得比 CNN 更好，這篇發表在 CVPR 2022 上的研究表示認為這不是因為 Self-attention 的設計形式(query-key-value)，而是因為其有效感受野特別大，因此作者提出了提出了超大 kernel 的模型，在一系列的實驗下證明較大的卷積核在現代模型優化的設計下，計算量並不會提升多少且在一些 downstream tasks 的效能更甚於較深但 kernel 較小的網路架構。</p>
+<h1 id="貢獻">貢獻</h1>
 <ul>
-<li>Orientation $ \theta $：控制 Gabor 濾波器中條帶的方向，有效值為 0 ~ 360 度的實數</li>
-<li>Phase offset $ \phi $：表示餘弦函數的相位偏移參數，有效值為 0 ~ 180 度的實數</li>
-<li>Frequency $ \omega $：餘弦函數中的頻率參數，頻率越高，黑白相間的間隔越小</li>
-<li>Standard deviation $ \sigma $：表示高斯函數中的標準差，該參數決定了 Gabor 濾波器都可接受區域大小，其值可設為 $ \pi / \omega $</li>
+<li>證明超大卷積核在過去沒人用，不代表現在不能用，在現代 CNN 設計的加持下， kernel 越大效能可能越好。</li>
+<li>發現超大 depthwise 卷積並不會增加多少 FLOPs，如果再加上底層優化速度會更快，31x31 的計算密度最高可達 3x3 的 70 倍。</li>
+<li>大卷積核不只能用在大的 feature map 上，作者發現在 7x7 的 feature map 上用 13x13 的卷積核都能漲點。</li>
+<li>ImageNet 的準確率並不能說明一切，作者發現在一些 downstream tasks(object detection、semantic segmentation&hellip;) 上的性能可能跟 ImageNet 的關係不大。</li>
+<li>超深的 CNN 由大量的 3x3 kernel 堆疊而成，所以感受野很大，其實不是這樣，作者發現反而是少量的大 kernel 有效感受野必較大。</li>
 </ul>
-<p>在下圖中顯示了 Alexnet 中第一層卷積層中使用的 96 個濾波器，從紋理上來看幾乎與 Gabor 濾波器一樣，由此可知我們在卷積神經網路中使用 Gabor 濾波器是可行的</p>
+<h1 id="實驗">實驗</h1>
+<ul>
+<li>通過一系列的實驗，作者總結了在 CNN 中應用超大卷積核的五個準則:
+<ul>
+<li>使用 Depthwise convolution</li>
+<li>添加 Shortcuts</li>
+<li>做結構重參數化(參考: <a href="https://zhuanlan.zhihu.com/p/361090497">https://zhuanlan.zhihu.com/p/361090497</a>)</li>
+<li>要看在 downstream tasks 上的性能，不能只看 ImageNet</li>
+<li>小的 feature map 上也可以用大的卷積核</li>
+</ul>
+</li>
+</ul>
 <figure align="center">
-    <img src="https://i.imgur.com/mRtrTqc.png">
-    <figcaption>Filters of fisrt layer in Alexnet</figcaption>
+    <img src="https://i.imgur.com/wmQrin1.png">
+    <figcaption>RepLKNet 架構</figcaption>
 </figure>
-<h1 id="experiment">Experiment</h1>
-<p>實驗的部分作者分別在 Dogs vs Cats/AffectNet/ImageNet 三個資料集上進行測試，針對前兩個資料集設計了兩個簡單的傳統 CNN 模型，並將模型的第一層卷積層替換成 Gabor Layer 來與原本的架構做比較，而在 ImageNet dataset 上則是使用 Alexnet 來測試，詳細的架構圖可參考<a href="https://ieeexplore.ieee.org/abstract/document/9030571">原文</a>，其結果由下圖可知看出 Gabor CNN 在訓練的收斂速度與辨識準確度都要優於傳統的 CNN</p>
+<ul>
+<li>基於以上準則，借鑑 Swim Transformer 的架構，提出新的架構 RepLKNet，其中使用大量的超大卷積核，如 27x27、31x31等。此架構非常簡單，其餘部分都是 1x1 卷積、batch norm 且完全沒有任何 attention。</li>
+<li>基於超大卷積核，對有效感受野、shape bias(model 做決定時是看 feature 的形狀還是局部紋理)、Transformers 之所以性能好的原因等等進行討論及分析，作者發現 ResNet-152 等傳統深層小 kernel 模型的有效感受野其實不大，反而是大 kernel 模型的有效感受野較大且更接近人類視覺(shape bias 高)。Transformer 的關鍵能在於較大的有效感受野而不是 self-attention 的設計形式。</li>
+</ul>
 <figure align="center">
-    <img src="https://i.imgur.com/ATWS2XP.png">
-    <figcaption>Performance on Dogs vs Cats</figcaption>
+    <img src="https://i.imgur.com/R2G2YS8.png">
+    <figcaption>有效感受野視覺化</figcaption>
 </figure>
-<h1 id="discussion">Discussion</h1>
-<p>在實驗結果中顯示，有 Gabor Layer 的 CNN 明顯有更好的性能，尤其是在貓與狗的分類上準確度更是提升了 6 個百分點，並且參數量明顯減少了許多。但是如果資料集中只有少部分的圖片含有 Gabor 特徵，如 ImageNet，那這種方法將不會提高辨識的準確度，不過 Gabor CNN 仍然能夠在相同的準確度下減少參數量且提升訓練速度</p>
-<h1 id="demo">Demo</h1>
-<p>最後為了驗證此篇論文的方法，使用了作者在 GitHub 提供的 GaborConv2d API 來設計一個簡單的 Gabor CNN 模型，與原文的方法一樣用 Gabor Layer 替換了傳統 CNN 模型中的第一層卷積層來訓練 Dogs vs Cats 資料集，不過模型架構並未完全參照原文，而是使用了四層簡單的 CONV &raquo; ReLU &raquo; Max Pool 來做訓練，模型定義如下</p>
-<pre tabindex="0"><code>class GaborCNN(nn.Module):
-
-    def __init__(self):
-        super(CNN, self).__init__()
-        # ReLU
-        self.relu = nn.ReLU(inplace=True)
-        # Max pool
-        self.maxpool = nn.MaxPool2d(kernel_size=2)
-
-        # Convolution 1, input shape = (3, 224, 224)
-        self.conv1 = GaborConv2d(in_channels=3, out_channels=16, kernel_size=(13, 13), device=&#39;cuda&#39;)
-        # Convolution 2, input shape = (16, 106, 106)
-        self.conv2 = nn.Conv2d(16, 32, kernel_size=3, stride=1)
-        # Convolution 3, input shape = (32, 52, 52)
-        self.conv3 = nn.Conv2d(32, 64, kernel_size=3, stride=1)
-        # Convolution 4, input shape = (64, 25, 25)
-        self.conv4 = nn.Conv2d(64, 128, kernel_size=3, stride=1)
-        # Fully connected, input shape = (128 * 11 * 11)
-        self.fc1 = nn.Linear(128 * 11 * 11, 128)
-        self.fc2 = nn.Linear(128, 2)
-
-    def forward(self, x):
-        x = self.maxpool(self.relu(self.conv1(x)))
-        x = self.maxpool(self.relu(self.conv2(x)))
-        x = self.maxpool(self.relu(self.conv3(x)))
-        x = self.maxpool(self.relu(self.conv4(x)))
-        x = x.view(-1, 128 * 11 * 11)
-        x = self.fc1(x)
-        x = self.fc2(x)
-        return x
-</code></pre><p>由於運算設備的限制，這裡我只從原資料集的訓練集(25000張)中取了 5000 + 5000 張貓狗各半來切成訓練集驗證集，分別為 80% 與 20%，訓練結果如下表格所示，雖然在準確度上並無提升，但是一般 CNN 與 Gabor CNN 的參數量分別為 2457890 與 2088146，後者少了約 1/6 的參數量，由此可知其性能的確是優於一般的 CNN</p>
-<br>
-<table style="text-align:center">
-    <tr>
-        <td>Accuracy</td>
-        <td>Train</td>
-        <td>Train</td>
-        <td>Val</td>
-        <td>Val</td>
-    </tr>
-    <tr>
-        <td>Epoch</td>
-        <td>CNN</td>
-        <td>Gabor CNN</td>
-        <td>CNN</td>
-        <td>Gabor CNN</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>0.611</td>
-        <td>0.581</td>
-        <td>0.659</td>
-        <td>0.632</td>
-    </tr>
-    <tr>
-        <td>10</td>
-        <td>0.812</td>
-        <td>0.794</td>
-        <td>0.803</td>
-        <td>0.782</td>
-    </tr>
-    <tr>
-        <td>20</td>
-        <td>0.860</td>
-        <td>0.843</td>
-        <td>0.845</td>
-        <td>0.815</td>
-    </tr>
-    <tr>
-        <td>30</td>
-        <td>0.886</td>
-        <td>0.870</td>
-        <td>0.862</td>
-        <td>0.864</td>
-    </tr>
-    <tr>
-        <td>40</td>
-        <td>0.901</td>
-        <td>0.894</td>
-        <td>0.868</td>
-        <td>0.861</td>
-    </tr>
-</table>
+<ul>
+<li>作者在 ImageNet、Cityscapes、ADE20K、COCO 等資料集上進行測試，皆取得不錯的成果，由於篇幅較長這邊省略不談，詳見原論文。</li>
+</ul>
+<h1 id="結論">結論</h1>
+<p>作者視覺化了 RepLKNet-31、RepLKNet-13、ResNet-101、ResNet-152 的有效感受野(方法參考原論文)，發現大 kernel 的模型有效感受野遠超深層小 kernel 模型。並且研究了模型的 shape bias，人類的 shape bias 約為 90% 左右，如下圖左邊的菱形點，其中比較的模型包含 Swin、ResNet152、RepLKNet-31、RepLKNet-3，發現 RepLKNet-3 和 ResNet-152 的 kernel size 一樣大，shape bias 也較為接近，相關研究發現其實 Swim(局部 attention)的 shape bias 並不高，而 ViT(全局 attention)的卻很高，這似乎說明 attention 的形式並不是關鍵，作用的範圍才是關鍵，這也解釋了為甚麼 RepLKNet-31 具有較高的 shape bias。</p>
+<figure align="center">
+    <img src="https://i.imgur.com/wWM2bD4.png">
+    <figcaption>Shape bias 比較</figcaption>
+</figure>
               
 
 
@@ -435,9 +361,9 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
                   <div class="post-footer-tags">
                     <span class="text-color-light text-small">標籤</span><br/>
                     
-  <a class="tag tag--primary tag--small" href="https://tunahsu.github.io/tags/gabornet/">gabornet</a>
+  <a class="tag tag--primary tag--small" href="https://tunahsu.github.io/tags/replknet/">replknet</a>
 
-  <a class="tag tag--primary tag--small" href="https://tunahsu.github.io/tags/gabor-filter/">gabor filter</a>
+  <a class="tag tag--primary tag--small" href="https://tunahsu.github.io/tags/large-kernel/">large kernel</a>
 
                   </div>
                 
@@ -450,7 +376,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/replknet/" data-tooltip="RepLKNet" aria-label="下一篇: RepLKNet">
+            <a class="post-action-btn btn btn--disabled">
           
               <i class="fa fa-angle-left"></i>
               <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
@@ -458,7 +384,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/dyncnn/" data-tooltip="DynCNN 用於監控影像的動態卷積神經網路" aria-label="上一篇: DynCNN 用於監控影像的動態卷積神經網路">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/gabornet/" data-tooltip="GaborNet 在卷積神經網路中可學習的 Gabor 濾波器參數" aria-label="上一篇: GaborNet 在卷積神經網路中可學習的 Gabor 濾波器參數">
           
               <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
               <i class="fa fa-angle-right"></i>
@@ -476,19 +402,19 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tunahsu.github.io/post/gabornet/" title="分享到 Facebook" aria-label="分享到 Facebook">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tunahsu.github.io/post/replknet/" title="分享到 Facebook" aria-label="分享到 Facebook">
           <i class="fab fa-facebook-square" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tunahsu.github.io/post/gabornet/" title="分享到 Twitter" aria-label="分享到 Twitter">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tunahsu.github.io/post/replknet/" title="分享到 Twitter" aria-label="分享到 Twitter">
           <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://tunahsu.github.io/post/gabornet/" title="分享到 Linkedin" aria-label="分享到 Linkedin">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://tunahsu.github.io/post/replknet/" title="分享到 Linkedin" aria-label="分享到 Linkedin">
           <i class="fab fa-linkedin" aria-hidden="true"></i>
         </a>
       </li>
@@ -519,9 +445,9 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     </div>
     <script type="text/javascript">
       var disqus_config = function() {
-        this.page.url = 'https:\/\/tunahsu.github.io\/post\/gabornet\/';
+        this.page.url = 'https:\/\/tunahsu.github.io\/post\/replknet\/';
         
-          this.page.identifier = '\/post\/gabornet\/'
+          this.page.identifier = '\/post\/replknet\/'
         
       };
       (function() {
@@ -557,7 +483,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/replknet/" data-tooltip="RepLKNet" aria-label="下一篇: RepLKNet">
+            <a class="post-action-btn btn btn--disabled">
           
               <i class="fa fa-angle-left"></i>
               <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
@@ -565,7 +491,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/dyncnn/" data-tooltip="DynCNN 用於監控影像的動態卷積神經網路" aria-label="上一篇: DynCNN 用於監控影像的動態卷積神經網路">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://tunahsu.github.io/post/gabornet/" data-tooltip="GaborNet 在卷積神經網路中可學習的 Gabor 濾波器參數" aria-label="上一篇: GaborNet 在卷積神經網路中可學習的 Gabor 濾波器參數">
           
               <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
               <i class="fa fa-angle-right"></i>
@@ -583,19 +509,19 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tunahsu.github.io/post/gabornet/" title="分享到 Facebook" aria-label="分享到 Facebook">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tunahsu.github.io/post/replknet/" title="分享到 Facebook" aria-label="分享到 Facebook">
           <i class="fab fa-facebook-square" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tunahsu.github.io/post/gabornet/" title="分享到 Twitter" aria-label="分享到 Twitter">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tunahsu.github.io/post/replknet/" title="分享到 Twitter" aria-label="分享到 Twitter">
           <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
       </li>
     
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://tunahsu.github.io/post/gabornet/" title="分享到 Linkedin" aria-label="分享到 Linkedin">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://tunahsu.github.io/post/replknet/" title="分享到 Linkedin" aria-label="分享到 Linkedin">
           <i class="fab fa-linkedin" aria-hidden="true"></i>
         </a>
       </li>
@@ -626,19 +552,19 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Fgabornet%2F" aria-label="分享到 Facebook">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Freplknet%2F" aria-label="分享到 Facebook">
           <i class="fab fa-facebook-square" aria-hidden="true"></i><span>分享到 Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Fgabornet%2F" aria-label="分享到 Twitter">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Freplknet%2F" aria-label="分享到 Twitter">
           <i class="fab fa-twitter" aria-hidden="true"></i><span>分享到 Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Fgabornet%2F" aria-label="分享到 Linkedin">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ftunahsu.github.io%2Fpost%2Freplknet%2F" aria-label="分享到 Linkedin">
           <i class="fab fa-linkedin" aria-hidden="true"></i><span>分享到 Linkedin</span>
         </a>
       </li>

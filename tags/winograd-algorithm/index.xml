@@ -6,15 +6,14 @@
     <description>Recent content in winograd algorithm on Tuna&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 12 Apr 2022 16:53:08 +0800</lastBuildDate><atom:link href="https://tunahsu.github.io/tags/winograd-algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Apr 2022 16:53:08 +0800</lastBuildDate>
+    <atom:link href="https://tunahsu.github.io/tags/winograd-algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Winograd algorithm 卷積神經網路中的加速卷積算法</title>
       <link>https://tunahsu.github.io/post/winograd-algorithm/</link>
       <pubDate>Tue, 12 Apr 2022 16:53:08 +0800</pubDate>
-      
       <guid>https://tunahsu.github.io/post/winograd-algorithm/</guid>
       <description>&lt;p&gt;作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

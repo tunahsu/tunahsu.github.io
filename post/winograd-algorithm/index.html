@@ -25,7 +25,7 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="generator" content="Hugo 0.102.3 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="generator" content="Hugo 0.121.0 with theme Tranquilpeak 0.5.3-BETA">
 <meta name="author" content="Tuna Hsu">
 <meta name="keywords" content="">
 <meta name="description" content="作為首篇學習筆記，來記錄一下最近閱讀學長論文時文中的 Winograd 演算法，該方法可以減少矩陣乘法中的乘法運算，近年來有許多相關研究將其應用於加速 convolutional operation">
@@ -311,7 +311,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <h1 id="1d-winograd">1D Winograd</h1>
 <p>以一維的卷積為例，輸入資訊為 $ d = \begin{bmatrix} d_0 &amp; d_1 &amp; d_2 &amp; d_3 \end{bmatrix} ^ T $，卷積核為 $ g = \begin{bmatrix} g_0 &amp; g_1 &amp; g_2 \end{bmatrix} ^ T $ ，那麼 $ F(2, 3) $ 的卷積可以寫成以下形式：</p>
 <p>$$
-F(2, 3) = 
+F(2, 3) =
 \begin{bmatrix}
 d_0 &amp; d_1 &amp; d_2 \\
 d_1 &amp; d_2 &amp; d_3
@@ -319,7 +319,7 @@ d_1 &amp; d_2 &amp; d_3
 \begin{bmatrix}
 g_0 \\ g_1 \\ g_2
 \end{bmatrix}
-= 
+=
 \begin{bmatrix}
 d_0 g_0 + d_1 g_1 + d_2 g_2 \\
 d_1 g_0 + d_2 g_1 + d_3 g_2
@@ -331,7 +331,7 @@ r_0 \\ r_1
 $$</p>
 <p>如果是一般的矩陣乘法則有 6 次的乘法計算及 4 次加法，但輸入資訊轉換成矩陣並不是任意矩陣，而是有規律地分布著大量重複元素的矩陣，那麼就可以透過 Winograd 演算法寫成以下形式：</p>
 <p>$$
-F(2, 3) = 
+F(2, 3) =
 \begin{bmatrix}
 d_0 &amp; d_1 &amp; d_2 \\
 d_1 &amp; d_2 &amp; d_3
@@ -339,7 +339,7 @@ d_1 &amp; d_2 &amp; d_3
 \begin{bmatrix}
 g_0 \\ g_1 \\ g_2
 \end{bmatrix}
-= 
+=
 \begin{bmatrix}
 m_1 + m_2 + m_3 \\
 m_2 - m_3 - m_4
@@ -364,7 +364,7 @@ $$ m_4 = (d_1 - d_3) g_2 $$</p>
 </ul>
 <p>這邊方便推導我們假設 $ m = 2, r = 3 $ ，為了讓輸入矩陣與卷積核矩陣能夠做內積，必須先乘上變換矩陣讓它們維度一致，而變換矩陣中的元素可由上述 $ F(2, 3) $ 的例子中各項係數得知</p>
 <p>$$
-Gg = 
+Gg =
 \begin{bmatrix}
 1 &amp; 0 &amp; 0 \\
 \frac{1}{2} &amp; \frac{1}{2} &amp; \frac{1}{2} \\
@@ -374,7 +374,7 @@ Gg =
 \begin{bmatrix}
 g_0 \\ g_1 \\ g_2
 \end{bmatrix}
-= 
+=
 \begin{bmatrix}
 g_0 \\
 \frac{g_0 + g_1 + g_2}{2} \\
@@ -383,7 +383,7 @@ g_2
 \end{bmatrix}
 $$</p>
 <p>$$
-B ^ T d = 
+B ^ T d =
 \begin{bmatrix}
 1 &amp; 0 &amp; -1 &amp; 0 \\
 0 &amp; 1 &amp; 1 &amp; 0 \\
@@ -393,7 +393,7 @@ B ^ T d =
 \begin{bmatrix}
 d_0 \\ d_1 \\ d_2 \\ d_3
 \end{bmatrix}
-= 
+=
 \begin{bmatrix}
 d_0 - d_2 \\
 d_1 + d_2 \\
@@ -550,7 +550,7 @@ $$</p>
         </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2022 Tuna Hsu. All Rights Reserved
+    &copy; 2023 Tuna Hsu. All Rights Reserved
   </span>
 </footer>
 

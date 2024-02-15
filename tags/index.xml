@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Tuna&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 08 Dec 2023 02:07:50 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 15 Feb 2024 11:30:32 +0800</lastBuildDate>
     <atom:link href="https://tunahsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ddpm</title>
+      <link>https://tunahsu.github.io/tags/ddpm/</link>
+      <pubDate>Thu, 15 Feb 2024 11:30:32 +0800</pubDate>
+      <guid>https://tunahsu.github.io/tags/ddpm/</guid>
+      <description></description>
+    </item>
     <item>
       <title>interview</title>
       <link>https://tunahsu.github.io/tags/interview/</link>
